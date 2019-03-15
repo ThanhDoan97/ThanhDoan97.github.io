@@ -1,0 +1,322 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif !important;
+	background: #efefef !important ;
+	height: 100%;
+
+}
+
+/* CSS PHẦN THÔNG TIN */
+ .dang_nhap a:hover.form_login{
+	display: block;
+	
+	
+
+}
+.form_login{
+	background:black;
+	
+	border:none;
+	position: relative;
+	display: none;
+}
+
+
+.phone-mail{
+	height: 50px;
+	max-width: 100%;
+	
+	border-bottom: 1px solid #f4f4f4;
+		
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif !important;
+
+}
+.phone-mail ul{
+	list-style: none;
+	margin: 15px 20px;
+	
+	
+
+
+
+}
+.phone-mail ul li{
+	padding-left: 15px;
+	float: left;
+	color: #777;
+
+
+}
+.phone-mail ul li a{
+	color: #777;
+}
+/* CSS Phần logo */
+.logo{
+	height: 100px;
+}
+.logo a img {
+	height:60px;
+    width: 150px;
+    margin: 25px 70px;
+
+}
+.Home {
+	margin-left: 100px;
+	margin-top: 20px;
+}
+.Home a{
+	color: #222;
+	font-size: 18px;
+
+
+}
+.Home ul li{
+	padding-left: 10px;
+}
+/* css PHONE */
+.phone {
+ 	margin-top: 15px  ;
+ 	margin-left: -130px;
+}
+.menu{
+	background-color: black;
+	height: 70px;
+}
+/* CSS menu */
+
+.row>.category{
+	background-color: #fef200;
+	
+	margin-left: 80px;
+	height: 70px;
+	width: 200px;
+}
+.sub_danhmuc{
+	list-style: none;
+	position: relative;
+	background-color:white;
+	height: 375px;
+	width: 200px;
+	margin-top: 12px ;
+	padding: 10px 10px;
+	text-align: 10px;
+	border:1px solid #c3c3c3
+
+
+	
+
+
+}
+.sub_danhmuc li {
+	border-bottom: 1px solid  #eeeeee;
+
+	padding-top: 10px;
+
+
+}
+.sub_danhmuc li a{
+	text-decoration: none;
+	padding-top: 20px;
+	color: black;
+	
+
+}
+
+/* search*/
+.search{
+	height:40px;
+	width: 500px;
+	
+	margin: 15px 100px ;
+	background-color: white;
+	border-radius: 40px;
+
+
+}
+.search_txt{
+	border:none;
+	background: none;
+	outline: none;
+	padding: 10px 10px;	
+}
+.search_bnt{
+	color: black;
+	height: 40px;
+	width: 40px;
+	float: right;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding-top: 10px;
+	
+
+
+}
+/* phần slider */
+#myCarousel{
+	height: 370px;
+	width: 665px;
+	margin: 5px 280px;
+	float: left;
+}
+.quang_cao{
+	margin: 0px -250px;
+	float:left;
+}
+.quang_cao a img{
+	padding-top: 5px;
+	height: 125px;
+	width: 260px;
+}
+/* Tin hot */
+.tin_hot{
+	margin: 5px 70px;
+}
+/* CSS Điện tử âm thanh*/
+
+.dientu_title{
+	background: #ffffff;
+	height: 50px;
+	width: 1170px;
+	margin: 5px 70px;
+}
+.dientu_title p{
+	background: #e3007b;
+	height: 50px;
+	width: 200px;
+	
+	font-size: 14px;
+	padding: 10px 10px;
+	float: left;
+
+}
+.dientu_title ul li a{
+	color: #3a3a3c;
+}
+.dientu_title ul li{
+	float: left;
+	list-style: none;
+	padding: 15px 10px;
+	color: #3a3a3c;
+}
+.dientu_title ul{
+	float: left;
+}
+.banner_dientu{
+	margin: 10px 70px;
+}
+.banner_dientu >.table_SamTV{
+	float: left;
+
+
+
+}
+.banner_dientu>.table_SamTV tr td{
+	height: 160px;
+	width: 270px;
+}
+.banner_dientu>.table_SamTV tr td a img:hover{
+ box-shadow: 1px 1px 1px 1px;
+
+}
+.banner_dientu>.table_hangSX{
+	float: right;
+	background: white;
+
+}
+.banner_dientu>.table_hangSX tr td a img{
+	height: 62px;
+	width: 138px;
+	
+}
+.banner_dientu>.table_hangSX tr td{
+	border: 1px solid #eff0f1;
+}
+.sanpham_TV{
+	float: left;
+	margin-top: 10px;
+}
+
+.sanpham_TV tr td {
+
+	height: 430px;
+	width: 303px;
+	background: white;
+	position: relative;
+}
+.sanpham_TV tr td:hover {
+	border: 1px solid #c3c5c7;
+}
+.sanpham_TV table tr td a   {
+	position: absolute;
+	top: 5%;
+	left: 10%;
+
+}
+.sanpham_TV table tr td p{
+	position: relative;
+	top: 10%;
+	left: 10%;
+}
+.tenhang{
+	color: #0072bc;
+	font-size: 15px;
+
+}
+.tenSanPham{
+	color: #555555;
+	font-size: 15px;
+}
+.thongtin_sanpham{
+	
+	font-size: 13px;
+	margin-left: -35px;
+}
+.thongtin_sanpham a{
+	color: #333;
+}
+.thongtin_sanpham a:hover{
+	color: #333;
+}
+.price{
+	padding-top: 50px;
+
+	font-weight: bold;
+	font-size: 20px;
+	color: #e3007b;
+
+	
+}
+.footer{
+	height: 200px;
+	background: #ffffff;
+	border: 1px solid #e8e9ea;
+}
+.footer h4 {
+	color: #3083c1;
+}
+.footer p a {
+	text-decoration: none;
+	color: #222222;
+	font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
